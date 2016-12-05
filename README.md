@@ -31,11 +31,20 @@ python preProcessData.py
 that will create anime-min.json
 
 In order to execute the retrievePicTags.py
-You must first clone [i2v](https://github.com/rezoo/illustration2vec) and install dependencies
-and download the following files: 
+You must first clone [i2v](https://github.com/rezoo/illustration2vec)  
+install dependencies  
+```bash
+pip install scikit-image
+pip install numpy
+pip install scipy
+pip install Pillow
+pip install chainer
+```
+and download the following files from [website](http://illustration2vec.net/): 
 * tag_list.json 
 * illust2vec_tag_ver200.caffemodel 
-which can be found in there project page   
+
+which can be found in the project page   
 Runing retrievePicTag.py will generate labels-min.json
 ```bash
 python retrievePicTag.py
