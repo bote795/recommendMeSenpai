@@ -35,21 +35,20 @@ and download the following files:
 * illust2vec_tag_ver200.caffemodel 
 which can be found in there project page   
 Runing retrievePicTag.py will generate labels-min.json
-`bash
+```bash
 python retrievePicTag.py
-`
+```
 We must then retireve all the extra pictures we downloaded using [scrapy](https://scrapy.org/)
 #####install  
-`bash 
+```bash 
 pip install scrapy 
-`
+```
 #####Execute 
 This will take about ~8 hrs 
-`bash
+```bash
 cd myAnimeList 
-scrapy myAnimeList spider.py
 scrapy crawl myAnimeList --set DOWNLOAD_DELAY=8 -o test-2.json
-`
+```
 You will need the data from the step above to do the step below 
 If you execute all cells in "notebooks/retrieve labels round 2.ipynb"  
 it will generate labels2-min.json  
