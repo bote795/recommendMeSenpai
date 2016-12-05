@@ -9,19 +9,19 @@
   * contains users and what they rated different animes/Mangas
   * 200 million records
 
-To be able to obtain our [data](/data):
-	* anime-min.json
-		* a filtered version of anime.json containing only anime
-	* labels-min.json
-		* runing all pictures from anime-min.json through i2v and retrieved labels for each pic
-	* labels2-min.json
-		* runing all pictures from test-2.json through i2v and retrieved labels for each pic
-	*  test-2.json
-		* crawled extra pics
-	* users-200.min.json
-		* extract 200 records from users.json.zip
-	* users-1000.min.json
-		* extract 1000 records from users.json.zip
+  To be able to obtain our [data](/data):
+  	* anime-min.json
+  		* a filtered version of anime.json containing only anime
+  	* labels-min.json
+  		* runing all pictures from anime-min.json through i2v and retrieved labels for each pic
+  	* labels2-min.json
+  		* runing all pictures from test-2.json through i2v and retrieved labels for each pic
+  	*  test-2.json
+  		* crawled extra pics
+  	* users-200.min.json
+  		* extract 200 records from users.json.zip
+  	* users-1000.min.json
+  		* extract 1000 records from users.json.zip
     
 ###How to generate our data
 #####******* NOTE: All directory paths must be change to fit your setup *******
