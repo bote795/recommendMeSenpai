@@ -4,8 +4,10 @@
 [Main Files](https://drive.google.com/drive/folders/0B5N8stIumL_FMGVrTllNajAydUU?usp=sharing):
 * [anime.json](link)
  * contains all the anime/Manga from animelist at the time we obtained data
+ * 42k records of anime/manga
 * [users.json.zip](link)
   * contains users and what they rated different animes/Mangas
+  * 200 million records
 
   To be able to obtain our [data](/data):
   	* anime-min.json
