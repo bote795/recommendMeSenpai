@@ -1,5 +1,6 @@
 # recommendMeSenpai
 
+##PreProcessing 
 [Main Files](https://drive.google.com/drive/folders/0B5N8stIumL_FMGVrTllNajAydUU?usp=sharing):
 * [anime.json](link)
  * contains all the anime/Manga from animelist at the time we obtained data
@@ -19,10 +20,12 @@
   		* extract 200 records from users.json.zip
   	* users-1000.min.json
   		* extract 1000 records from users.json.zip
-
+###How to generate our data
+#####******* NOTE: All directory paths must be change to fit your setup *******
 First run the preProcessData.py 
-python preProcessData.py
-
+`bash
+python preProcessData.py 
+`
 that will create anime-min.json
 
 In order to execute the retrievePicTags.py
@@ -30,9 +33,23 @@ You must first clone [i2v](https://github.com/rezoo/illustration2vec) and instal
 and download the following files: 
 * tag_list.json 
 * illust2vec_tag_ver200.caffemodel 
-
+which can be found in there project page   
 Runing retrievePicTag.py will generate labels-min.json
-in notebooks/retrieve labels round 2.ipynb
-if all run will generate labels2-min.json
-
-runing readUser.py will generate the users files but you have to change the number of users you want 200/1000
+`bash
+python retrievePicTag.py
+`
+We must then retireve all the extra pictures we downloaded using [scrapy](https://scrapy.org/)
+#####install  
+`bash 
+pip install scrapy 
+`
+#####Execute 
+This will take about ~8 hrs 
+`bash
+cd myAnimeList 
+scrapy myAnimeList spider.py
+scrapy crawl myAnimeList --set DOWNLOAD_DELAY=8 -o test-2.json
+`
+You will need the data from the step above to do the step below 
+If you execute all cells in "notebooks/retrieve labels round 2.ipynb"  
+it will generate labels2-min.json  
