@@ -51,6 +51,6 @@ This will take about ~8 hrs
 cd myAnimeList 
 scrapy crawl myAnimeList --set DOWNLOAD_DELAY=8 -o test-2.json
 ```
-You will need the data from the step above to do the step below 
-If you execute all cells in "notebooks/retrieve labels round 2.ipynb"  
-it will generate labels2-min.json  
+You will need the data from the step above to do the step below   
+If you execute all cells in "notebooks/retrieve labels round 2.ipynb"    
+it will generate labels2-min.json      
