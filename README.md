@@ -43,12 +43,15 @@ pip install chainer
 and download the following files from [website](http://illustration2vec.net/): 
 * tag_list.json 
 * illust2vec_tag_ver200.caffemodel 
-
-which can be found in the project page   
+You will then have to move "retrievePicTag.py" into the inside of the cloned Repo
 Runing retrievePicTag.py will generate labels-min.json
 ```bash
 python retrievePicTag.py
 ```
+The command above will take different amounts of time depending on your CPU:   
+ * i5: 5min per picture
+ * i7: 500ms per picture
+ 
 We must then retireve all the extra pictures we downloaded using [scrapy](https://scrapy.org/)
 #####install  
 ```bash 
