@@ -7,7 +7,7 @@
 * [users.json.zip](link)
   * contains users and what they rated different animes/Mangas
 
-  To be able to obtain our [data](https://drive.google.com/drive/folders/0B5N8stIumL_FcmFNUE8wU181bVU?usp=sharing):
+  To be able to obtain our [data](/data):
   	* anime-min.json
   		* a filtered version of anime.json containing only anime
   	* labels-min.json
@@ -20,12 +20,14 @@
   		* extract 200 records from users.json.zip
   	* users-1000.min.json
   		* extract 1000 records from users.json.zip
+    
 ###How to generate our data
 #####******* NOTE: All directory paths must be change to fit your setup *******
+
 First run the preProcessData.py 
-`bash
+```bash
 python preProcessData.py 
-`
+```
 that will create anime-min.json
 
 In order to execute the retrievePicTags.py
