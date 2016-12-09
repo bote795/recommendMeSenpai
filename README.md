@@ -1,7 +1,7 @@
 # recommendMeSenpai
 ##Website
  * [website](http://nicolasbotello.com/recommendMeSenpai/)     
- * [video](link)
+ * [video](https://www.youtube.com/watch?v=Owm1AI6oiHE&feature=youtu.be)
 
 ##PreProcessing 
 [Main Files](https://drive.google.com/drive/folders/0B5N8stIumL_FMGVrTllNajAydUU?usp=sharing):
