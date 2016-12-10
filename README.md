@@ -2,13 +2,13 @@
 ##Website
  * [website](http://nicolasbotello.com/recommendMeSenpai/)     
  * [video](https://www.youtube.com/watch?v=Owm1AI6oiHE&feature=youtu.be)
-
+ * [notebook](notebooks/Project.ipynb)
 ##PreProcessing 
 [Main Files](https://drive.google.com/drive/folders/0B5N8stIumL_FMGVrTllNajAydUU?usp=sharing):
-* [anime.json](link)
+* [anime.json](https://drive.google.com/file/d/0Bwl-Y1MBTHrCX0EwSXFrbWs4M0k/view?usp=sharing)
  * contains all the anime/Manga from animelist at the time we obtained data
  * 42k records of anime/manga
-* [users.json.zip](link)
+* [users.json.zip](https://drive.google.com/file/d/0Bwl-Y1MBTHrCcWlrTmRfam8zejQ/view?usp=sharing)
   * contains users and what they rated different animes/Mangas
   * 200 million records
 
