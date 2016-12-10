@@ -109,6 +109,24 @@
                             Classification
                         </h3>
                         <p>We decided to use two different classifiers. Naive bayes and random forest. We found out that taking out any labels that are above a 1% frequency improved our test scores. In addition, both classifiers gave around the same prediction scores. From our 64% average test score , we can conclude that with our current model, we cannot accurately predict if a person would like an anime based on its video cover. Since our scores were low, we decided that our labels were not meaningful separately. This lead us to group our labels to believe that if we grouped similar labels, we could increase the prediction.</p>
+                        <div>
+                            <a href="https://plot.ly/~bote795/7/ " target="_blank " title=" " style="display: block; text-align: center; "><img src="https://plot.ly/~bote795/7.png " alt=" " style="max-width: 100%;width: 600px; "  width="600 " onerror="this.onerror=null;this.src='https://plot.ly/404.png' ; " /></a>
+                            <script data-plotly="bote795:7 "  src="https://plot.ly/embed.js " async></script>
+                        </div>
+                        <div>
+                            <a href="https://plot.ly/~bote795/9/ " target="_blank " title=" " style="display: block; text-align: center; "><img src="https://plot.ly/~bote795/9.png " alt=" " style="max-width: 100%;width: 600px; "  width="600 " onerror="this.onerror=null;this.src='https://plot.ly/404.png' ; " /></a>
+                            <script data-plotly="bote795:9 "  src="https://plot.ly/embed.js " async></script>
+                        </div>
+                        <div>
+                            <a href="https://plot.ly/~bote795/11/ " target="_blank " title=" " style="display: block; text-align: center; "><img src="https://plot.ly/~bote795/11.png " alt=" " style="max-width: 100%;width: 600px; "  width="600 " onerror="this.onerror=null;this.src='https://plot.ly/404.png' ; " /></a>
+                            <script data-plotly="bote795:11 "  src="https://plot.ly/embed.js " async></script>
+                        </div>
+                        <h3 class="post-subtitle ">
+                            GENRE BASED CLASSIFICATION
+                        </h3>
+                        <p>
+                            Rather than running our labels alone , we found that that if we could predict the genre of the labels, we could get a better prediction score of 68%. If we use our labels and genres, the prediciton score is around 66%.
+                        </p>
                         <h3 class="post-subtitle ">
                             Conclusion
                         </h3>
@@ -116,12 +134,6 @@
                           Can we judge a video by its cover? No, but our feature based recommendation system does looks promising for the future.
                         </p>
                         <p>Humans have a very big discrepancy in terms of what they watch, we believe this threw off the binary classification for predicting what the people liked. However, the i2v label generator gave us useful labels such as gun,military uniform, and musical note. Most of the time the labels gave us very descriptive labels of the setting and characters. These descriptive labels weren’t as good at recognizing other features that we believe would be better to predict . However, our genre predictor based on the i2v labels did very well showing over 90% accuracy. In addition, when we used our genre in our feature based recommendation system we found that we get an increase to 68% average predictor score from it's old 64% accuracy.  </p>
-                        <h3 class="post-subtitle ">
-                            GENRE BASED CLASSIFICATION
-                        </h3>
-                        <p>
-                            Rather than running our labels alone , we found that that if we could predict the genre of the labels, we could get a better prediction score of 68%. If we use our labels and genres, the prediciton score is around 66%.
-                        </p>
                         <h3 class="post-subtitle ">
                             Future Work
                         </h3>
